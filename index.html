@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el numero</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="body">
+    <main>
+        <div>
+            <h1>ADIVINA EL NÙMERO</h1>
+            <h3>El juego consiste en adivinar el nùmero oculto</h3>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Ingresa tu nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre es...">
+            <button type="button" class="btn btn-outline-dark">ENVIAR</button>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Ingresa tu apellido</label>
+            <input type="text" class="form-control" id="apellido" placeholder="tu apellido es...">
+            <button type="button" class="btn btn-outline-dark">ENVIAR</button>
+        </div>
+        <div>
+            <p>Para eso debes tener en cuenta que:</p>
+            <ul>
+                <li>Es un numero del 1 al 10</li>
+                <li>Tienes 3 intentos posibles</li>
+                <li>Si ingresas un valor distinto a un nùmero (letra o simbolo), cuenta como un intento</li>
+            </ul>
+        </div>
+            <h3>QUE COMIENCE EL JUEGO!</h3>
+        <div>
+            <label for="exampleFormControlInput1" class="form-label">Ingresa un nùmero</label>
+            <input type="number" class="form-control" id="intentos" placeholder="Del 1 al 10">
+            <button type="button" class="btn3">ENVIAR</button>
+        </div>
+        <div id="res"></div>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>

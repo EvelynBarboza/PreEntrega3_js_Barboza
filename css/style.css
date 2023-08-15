@@ -1,0 +1,13 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    color: aliceblue;
+}
+
+.body {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.form-control {
+    color: black;
+}
